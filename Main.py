@@ -27,11 +27,4 @@ root = None
 for item in input_data.split(', '):
     if flag is True:
         root = insert(None, int(item))
-        flag = False
-    else:
-        insert(root, int(item))
-inorder(root)
-print()
-preorder(root)
-print()
-postorder(root)
+c
